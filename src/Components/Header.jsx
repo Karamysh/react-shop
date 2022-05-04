@@ -7,12 +7,11 @@ function Header() {
         <a href="/" className="brand-logo">
           React Shop
         </a>
-        <ul id="nav-mobile" className="reight hide-on-med-and-down">
+        <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a
-              href="https://bitvinus.github.io/react-shop/"
-              target="_blank"
-            ></a>
+            <a href="https://github.com/Bitvinus/react-shop" target="_blank">
+              Repo
+            </a>
           </li>
         </ul>
       </div>
