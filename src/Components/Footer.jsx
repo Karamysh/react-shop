@@ -10,6 +10,7 @@ function Footer() {
             className="grey-text text-lighten-4 right"
             href="https://github.com/Bitvinus/react-shop"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Repo
           </a>

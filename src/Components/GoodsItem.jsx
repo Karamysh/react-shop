@@ -1,13 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ShopContext } from '../context';
+
 function GoodsItem(props) {
-  const {
-    id,
-    name,
-    description,
-    price,
-    full_background,
-    onclickHandler = Function.prototype,
-  } = props;
+  const { id, name, description, price, full_background } = props;
+
+  const { onclickHandler } = useContext(ShopContext);
 
   return (
     <div className="card">

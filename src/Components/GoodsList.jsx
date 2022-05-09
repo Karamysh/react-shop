@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ShopContext } from '../context';
 import { GoodsItem } from './GoodsItem';
 
-function GoodsList(props) {
-  const { goods = [], onclickHandler = Function.prototype } = props;
+function GoodsList() {
+  const { goods = [] } = useContext(ShopContext);
 
   if (!goods.length) {
     return <h3>Nothing here</h3>;
@@ -10,7 +11,7 @@ function GoodsList(props) {
   return (
     <div className="goods">
       {goods.map((item) => (
-        <GoodsItem key={item.id} {...item} onclickHandler={onclickHandler} />
+        <GoodsItem key={item.id} {...item} />
       ))}
     </div>
   );
