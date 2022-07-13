@@ -1,6 +1,6 @@
 # React-shop Portfolio Project
 
-[DEMO](https://bitvinus.github.io/react-shop)
+[DEMO](https://karamysh.github.io/react-shop)
 
 <div>
 
