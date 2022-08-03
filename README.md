@@ -22,5 +22,11 @@ SPA training project, in which I practiced React, connected an external [API](ht
 
 ### Functionality
 This app is a skin store for Fortnite. You can add products to the cart, count their cost.
+
+
+### To start
+1) Copy or clone project to you local folder
+2) `$npm install react-scripts@latest`
+3) `$npm start`
   </div>
   </div>
